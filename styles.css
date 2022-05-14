@@ -79,3 +79,46 @@ button {
     border:none;
     margin: 24px 0px 36px;
 }
+
+.imageplace {
+    display: flex;
+    height: 200px;
+    width: 400px;
+    background-color: gray;
+    color: #E5E7Eb;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.info h1 {
+    margin: 0px 0px;
+    padding: 0px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    margin: 20px 20px;
+    color:#1f2937;
+}
+
+.box button {
+    height: 90px;
+    width: 90px;
+    margin: 10px 10px;
+    border-style: double;
+    border-color:#3882f6;
+    border-width: 2px;
+    background-color:#f9faf8;
+}
