@@ -5,7 +5,6 @@ body {
     display: flex;
     flex-direction:column;
     height: 100vh;
-
 }
 
 .header, .footer {
@@ -16,7 +15,7 @@ body {
     align-items:center;
 }
 
-.header, .content {
+.header, .hero, .info, .quote, .action {
     padding: 0px 80px;
 }
 
@@ -48,5 +47,35 @@ body {
     display:flex;
     flex-direction: column;
     height:100vh;
-    justify-content: space-between;;
+    justify-content: space-between;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.hero_left {
+
+}
+
+.hero_left h1 {
+    color:#f9faf8;
+    font-size: 48px;
+}
+
+.hero_left h2 {
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+button {
+    background-color:#3882f6;
+    color:#f9faf8;
+    font-size:18px;
+    padding:6px 24px;
+    border-radius: 8px;
+    border:none;
+    margin: 24px 0px 36px;
 }
